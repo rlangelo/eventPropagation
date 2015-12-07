@@ -2,16 +2,29 @@
 <HTML>
     <HEAD>
         <TITLE>
-            Asset Submission
+            WPI Fictional Character Generator
         </TITLE>
     </HEAD>
-    <BODY onload="yearFunction()">
-        <H1>File Submission</H1>
-            Download Type:
+    <BODY style="text-align:center">
+        <H1>WPI Fictional Character Generator</H1>
+            Character Type:
             <nav>
-              <input type="button" value="Student"/>
-              <input type="button" value="Staff"/>
+              <input type="button" value="Student" id="studButton"/>
+              <input type="button" value="Staff" id="staffBut"/>
             </nav>
-        <script src="script.js"></script>
+	<input type="button" value="Cancel" id="Cancel"/>
+	<br/>
+	<br/>
+	<div id="outer" style="margin:0 auto;background-color:#00FFFF;width:400px;visibility:hidden">Get Department 
+		<div id="middle" style="background-color:#FF0000">Get Age
+			<div id="inner" style="background-color:#008000">Get Hobby</div>
+		</div>
+	</div>
+	<div id="outer2" style="margin:0 auto;background-color:#00FFFF;width:400px;visibility:hidden">Get Department
+		<div id="middle2" style="background-color:#FF0000">Get Age
+			<div id="inner2" style="background-color:#008000">Get Hobby</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
     </BODY>
 </HTML>
