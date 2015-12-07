@@ -6,41 +6,12 @@
         </TITLE>
     </HEAD>
     <BODY onload="yearFunction()">
-        <H1>Submit Art Assets for the WPI Museum of Digital Art</H1>
-        <form name="frm1" method="POST" id="form1" action="//formspree.io/rcl.angelo@gmail.com">
-            File:<br>
-            <input type="file" name="fileAsset" accept="application/octet-stream,application/zip,application/x-zip,application/x-zip-compressed" id="asset"/>
-            <br>
-            Art Title:<br>
-            <input type="text" name="title" id="title"/>
-            <br>
-            Description:<br>
-            <input type="text" name="description" id="description"/>
-            <br>
-            Author Name:<br>
-            <input type="text" name="author" id="author"/>
-            <br>
-            WPI Username:<br>
-            <input type="text" name="username" id="username"/>
-            <br>
-            Graduation Year:<br>
-            <select id="year" name="gradYear">
-                <option value="blank">    </option>
-            </select>
-            <br>
-            <br>
-            <input type="button" onClick="addAuthor()" value="Add Author"/>
-            <input type="button" onClick="history.go(0)" value="Cancel"/>
-            <input type="button" id="subButton" onClick="submitFunction()" value="Submit"/>
-            <input type="submit" id="submit_button" style="visibility: hidden" value="Submit"/>
-            <br>
-            <div id="autError" style="visibility: hidden"><font color="red">Please fill up all the information about the author</font></div>
-            <div id="error" style="visibility: hidden"><font color="red">Please fill up all the information about the asset</font></div>
-            <div id="nofile" style="visibility: hidden"><font color="red">Please attach a file</font></div>
-            Authors:
-        </form>
-        <table id="author_table" style="width:50%">
-            </table>
+        <H1>File Submission</H1>
+            Download Type:
+            <nav>
+              <input type="button" value="Student"/>
+              <input type="button" value="Staff"/>
+            </nav>
         <script src="script.js"></script>
     </BODY>
 </HTML>
