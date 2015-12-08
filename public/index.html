@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+    <HEAD>
+        <TITLE>
+            WPI Fictional Character Generator
+        </TITLE>
+    </HEAD>
+    <BODY style="text-align:center">
+        <H1>WPI Fictional Character Generator</H1>
+	<span><a>Character Name:</a>
+		<input type="text" id="charName"/>
+		<input type="button" value="Submit" id="subButton"/></span>	
+        <p>Character Type: </p><a id="type"></a>
+            <nav>
+              <input type="button" value="Student" id="studButton"/>
+              <input type="button" value="Staff" id="staffBut"/>
+            </nav>
+	<input type="button" value="Cancel" id="Cancel"/>
+	<br/>
+	<br/>
+	<div id="outer" style="margin:0 auto;background-color:#00FFFF;width:400px;visibility:hidden">Get Department 
+		<div id="middle" style="background-color:#FF0000">Get Age
+			<div id="inner" style="background-color:#008000">Get Hobby</div>
+		</div>
+	</div>
+	<div id="outer2" style="margin:0 auto;background-color:#00FFFF;width:400px;visibility:hidden">Get Department
+		<div id="middle2" style="background-color:#FF0000">Get Age
+			<div id="inner2" style="background-color:#008000">Get Hobby</div>
+		</div>
+	</div>
+	<br />
+	<span id="cName" style="visibility:hidden"> Character Name: <a id="name"></a></span>
+	<br />
+	<br />
+	<br />
+	<span id="dept" style="visibility:hidden"> <a>Department: </a><a id="randDept"></a></span>
+	<br />
+	<br />
+	<br />
+	<span id="age" style="visibility:hidden"><a>Age: </a><a id="randAge"></a><a> Years Old</a></span>
+	<br />
+	<br />
+	<br />
+	<span id="hobby" style="visibility:hidden"><a>Hobby: </a><a id="randHobby"></a></span>
+	<script src="script.js"></script>
+    </BODY>
+</HTML>
