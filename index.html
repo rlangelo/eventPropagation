@@ -7,7 +7,10 @@
     </HEAD>
     <BODY style="text-align:center">
         <H1>WPI Fictional Character Generator</H1>
-            Character Type:
+	<span><a>Character Name:</a>
+		<input type="text" id="charName"/>
+		<input type="button" value="Submit" id="subButton"/></span>	
+        <p>Character Type: </p><a id="type"></a>
             <nav>
               <input type="button" value="Student" id="studButton"/>
               <input type="button" value="Staff" id="staffBut"/>
@@ -25,6 +28,20 @@
 			<div id="inner2" style="background-color:#008000">Get Hobby</div>
 		</div>
 	</div>
+	<br />
+	<span id="cName" style="visibility:hidden"> Character Name: <a id="name"></a></span>
+	<br />
+	<br />
+	<br />
+	<span id="dept" style="visibility:hidden"> <a>Department: </a><a id="randDept"></a></span>
+	<br />
+	<br />
+	<br />
+	<span id="age" style="visibility:hidden"><a>Age: </a><a id="randAge"></a><a> Years Old</a></span>
+	<br />
+	<br />
+	<br />
+	<span id="hobby" style="visibility:hidden"><a>Hobby: </a><a id="randHobby"></a></span>
 	<script src="script.js"></script>
     </BODY>
 </HTML>
