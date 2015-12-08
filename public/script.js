@@ -1,3 +1,6 @@
+//Author: Rafael Angelo
+//Website: rla-cs4241-main.herokuapp.com
+
 document.getElementById("studButton").addEventListener("click", displayStudent);
 document.getElementById("staffBut").addEventListener("click", displayStaff);
 var studOrStaff = -1;
