@@ -82,14 +82,14 @@ function Hobby() {
 			var hobby = hobbies[value];
 			document.getElementById("randHobby").innerText = hobby;
 			document.getElementById("hobby").style.visibility = "visible";
-		}, 1000);
+		}, 300);
 	} else {
 		setTimeout(function(){
 			var value = getRandomInt(0, hobbies.length-1);
 			var hobby = hobbies[value];
 			document.getElementById("randHobby").innerText = hobby;
 			document.getElementById("hobby").style.visibility = "visible";
-		}, 3000);
+		}, 1500);
 	}
 }
 
@@ -98,7 +98,7 @@ function Age() {
 	var age = getRandomInt(17, 28);
 	document.getElementById("randAge").innerText = String(age);
 	document.getElementById("age").style.visibility = "visible";
-	}, 2000);
+	}, 1000);
 }
 
 function Department() {
@@ -108,7 +108,7 @@ function Department() {
 			var department = departments[value];
 			document.getElementById("randDept").innerText = department;
 			document.getElementById("dept").style.visibility = "visible";
-		}, 3000);
+		}, 1500);
 	}
 	else {
 		setTimeout(function(){
@@ -116,7 +116,7 @@ function Department() {
 			var department = departments[value];
 			document.getElementById("randDept").innerText = department;
 			document.getElementById("dept").style.visibility = "visible";
-		}, 1000);
+		}, 300);
 	}
 }
 
@@ -125,7 +125,7 @@ function sAge() {
 		var age = getRandomInt(27, 80);
 		document.getElementById("randAge").innerText = String(age);
 		document.getElementById("age").style.visibility = "visible";
-	}, 2000);
+	}, 1000);
 	
 }
 
